@@ -19,6 +19,6 @@ For the databases used:
 - Databases: Contain the results for each database on .csv files. The structure of the file contains an id, Smiles for Isomer A, Smiles for Isomer B, Energy of Isomer A from DFT calculation (Ea_DFT), Energy of Isomer A from NN calculation (Ea_NN), Difference for Isomer A (Diff_MolA), Energy of Isomer B from DFT calculation (Eb_DFT), Energy of Isomer B from NN calculation (Eb_NN), Difference for Isomer B (Diff_MolB),Tautomerization energy at DFT level(Diff_abi), Tautomerization energy with NN(Diff_NN), Error on Tautomerization Energy(Diff_NN_abi)
 -  Kullback-Leibler (KL) divergence analysis: See inside the folder for more details.
 - Scripts for plot: Scripts to reproduce the plots on the manuscript
-- T-MAP: Eric
-- Amons Analysis: Eric
+- T-MAP: See inside the folder for more details
+- Amons Analysis: See inside the folder for more details.
 
