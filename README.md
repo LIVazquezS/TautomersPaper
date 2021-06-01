@@ -1,4 +1,5 @@
 # Influence of Databases
+Authors: Luis Itza Vazquez-Salazar, Eric Boittier, Oliver Unke and Markus Meuwly. 
 
 Files to reproduce results of results on https://arxiv.org/abs/2104.06099
 
