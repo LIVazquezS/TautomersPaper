@@ -11,8 +11,6 @@ import pandas as pd
 #input smiles
 PC9 = np.loadtxt('smiles_PC92.txt', dtype='U',comments='!')
 
-
-
 #generate converter
 obConversion = ob.OBConversion()
 obConversion.SetInAndOutFormats("smi", "can") #input smiles, output canonical smiles
@@ -23,8 +21,6 @@ for smiles in PC9:
     mol = ob.OBMol() 
     obConversion.ReadString(mol, smiles)
     moles_PC9.append(mol)
-    
-
 
 def get_amons(mol,n): 
     amons = [] 
